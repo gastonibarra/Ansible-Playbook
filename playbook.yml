@@ -36,13 +36,7 @@
       
     - debug:
         var: result3.stdout_lines
-
-
-        
-############## draft Pablito ###########################################
-
-
-
+ 
     - name: Making a copy of hosts file.
       shell: |
         cd /etc
